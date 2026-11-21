@@ -6,6 +6,7 @@ body{
 
 h1{
    text-align: center;
+   color: #fff;
 }
 
 form{
@@ -42,7 +43,7 @@ select{
 
 
 button{
-   padding: 10px 20px;
+   text-align: left;
    background-color: #007de7;
    color: #fff;
    border: none;
