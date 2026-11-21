@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <title>STEP4テスト:confirm</title>
@@ -23,7 +24,7 @@
   echo"<p>年齢は0から150の間で入力してください。</p>";
  }elseif(!preg_match("/^([0-9-])+$/",$phone)){
   echo"<p>電話番号は半角数字とハイフンのみ使用できます。</p>";
- }elseif(!preg_match("/^[a-zA-Z0-9.%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/", $email)){
+ }elseif(!preg_match("/^[a-zA-Z0-9\.%+-]+@[a-zA-Z0-9\.-]+\.[a-zA-Z]{2,}$/", $email)){
   echo"<p>メールアドレスの形式が正しくありません。</p>";
  }elseif(!preg_match("/^[一-龠々ぁ-んァ-ヶーa-zA-Z0-9-]+$/u",$address)){
   echo"<p>住所はひらがな、カタカナ、漢字、英字、半角数字、ハイフンのみ使用できます。</p>";
