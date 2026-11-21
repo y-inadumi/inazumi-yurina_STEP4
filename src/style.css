@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+body{
+   background-color: #ddd;
+}
+
+h1{
+   text-align: center;
+}
+
+form{
+   background-color: #ffffff;
+   max-width: 600px;
+   padding: 20px;
+   margin: 0 auto;
+   border-radius: 8px;
+}
+
+label{
+   display: block;
+   margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"]{
+   width: 96%;
+   padding: 10px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+
+select{
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+
+
+button{
+   padding: 10px 20px;
+   background-color: #007de7;
+   color: #fff;
+   border: none;
+   border-radius: 4px;
+}
